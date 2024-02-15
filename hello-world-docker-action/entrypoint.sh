@@ -1,1 +1,4 @@
-GREETING="Hello, $INPUT_WHO_TO_GREET!"
+#!/bin/sh -l
+
+echo "Hello $1"
+echo "time=$(date)" >> $GITHUB_OUTPUT
